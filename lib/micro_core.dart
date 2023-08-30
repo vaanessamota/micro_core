@@ -1,7 +1,5 @@
 library micro_core;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'core/micro_app.dart';
+export 'core/base_app.dart';
+export 'core/micro_core_utils.dart';
