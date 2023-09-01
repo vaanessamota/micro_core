@@ -27,7 +27,7 @@ abstract class BaseApp {
     if (navigateTo == null) return null;
 
     return MaterialPageRoute(
-      builder: (context) => navigateTo.call(context, routerArgs!),
+      builder: (context) => navigateTo.call(context, routerArgs),
     );
   }
 }
