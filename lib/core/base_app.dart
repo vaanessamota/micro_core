@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:micro_core/core/micro_app.dart';
 
-import 'micro_core_utils.dart';
+import '../utils/micro_core_utils.dart';
 
 abstract class BaseApp {
   List<MicroApp>? get microApps;
